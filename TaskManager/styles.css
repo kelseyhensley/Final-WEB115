@@ -1,0 +1,45 @@
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.important {
+    background-color: red;
+}
+
+.task-item {
+    background-color: #ffeaa7;
+    padding: 12px;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.task-item {
+    align-items: center;
+    margin: 10px 0;
+}
+
+button, input[type="checkbox"], label {
+    margin-left: 15px;
+}
+
+body {
+    background-color: #dff9fb;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    background-color: #574b90;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 12px;
+}
+
+button:hover {
+    background-color: #c44569;
+    color: white;
+}
